@@ -2,14 +2,16 @@
   "name": "reactztoh",
   "version": "1.0.0",
   "description": "this is react project zero to hero",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "vijayarangan",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
